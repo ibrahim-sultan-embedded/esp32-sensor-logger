@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "sensor_task/sensor_task.c"
+        "processing_task/processing_task.c"
+        "state_machine/state_machine.c"
+        "uart_task/uart_task.c"
+    INCLUDE_DIRS
+        "."
+        "sensor_task"
+        "processing_task"
+        "state_machine"
+        "uart_task"
+)
