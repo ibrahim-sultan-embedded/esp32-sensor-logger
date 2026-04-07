@@ -1,6 +1,6 @@
-# ESP32 Multi-Sensor Logger with Alert System
+# ESP32 FreeRTOS Temperature Monitor
 
-Real-time embedded system built on ESP32 + FreeRTOS, demonstrating professional firmware architecture including multi-task design, inter-task communication, state machines, and hardware sensor integration.
+Real-time temperature monitoring system built on ESP32 + FreeRTOS, demonstrating professional firmware architecture including multi-task design, inter-task communication, state machine with hysteresis, and manual 1-Wire driver implementation.
 
 ---
 
@@ -8,7 +8,7 @@ Real-time embedded system built on ESP32 + FreeRTOS, demonstrating professional 
 
 | Component | Details |
 |-----------|---------|
-| MCU | ESP32-WROOM-32 |
+| MCU | ESP32 DevKit V1 |
 | Sensor | DS18B20 (1-Wire, digital temperature) |
 | Interface | UART CLI (115200 baud, USB-Serial) |
 
